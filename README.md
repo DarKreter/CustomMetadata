@@ -1,1 +1,1 @@
-docker exec -i plex /bin/bash -s "SiemA" 1 "Test123"  < test.sh
+docker exec -i plex /bin/bash -s "Monogatari" 1 "Bakemonogatari"  < change_title.sh
