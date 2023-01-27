@@ -15,7 +15,10 @@ INNER JOIN
     metadata_items AS season ON
     season.id = episodes.parent_id
 WHERE 
-    directories.path='XXX'
+    directories.path="XXX"
 GROUP BY 
     season.id
+ORDER BY 
+    season.id DESC
+LIMIT 1
 ;
