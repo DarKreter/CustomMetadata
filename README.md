@@ -1,9 +1,8 @@
-Simple bash-python-sql script that changes anime season titles based on `.title` metadata files i plex Library
+Simple bash-python-sql script that changes anime season titles based on `.title` metadata files in plex Library
 --
 
-It needs path to plex Library.
 
-It also works only for plex in docker container with name "plex"
+It works only for plex in docker container with name "plex".
 
 **Install requirements:**
 ```
@@ -13,3 +12,5 @@ pip3 install argparse
 ```
 
 **Usage**: `./update_metadata.py -d [path]`
+
+It needs path to plex Library passed as argument.
